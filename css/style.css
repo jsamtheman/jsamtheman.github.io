@@ -1,0 +1,233 @@
+body {
+	background-image: url("../img/hburgMap2Edit.jpg");
+	height: 2500px;
+}
+
+.reveal-on-load {
+	display: none;
+}
+
+/*THIS PART IS ALL NAVIGATION*/
+
+nav {
+	background-color: rgba(255, 255, 255, .7);
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	text-transform: uppercase;
+}
+nav ul li img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	width: 10%;
+	margin-top: 2.5%;
+}
+
+.logo img {
+	width: 100%;
+	border: thin solid black;
+	padding: 2.5% 15%;
+}
+
+.left {
+	display: inline-block;
+	width: 44%;
+	position: relative;
+  	top: 50%;
+/*  	transform: translateY(-80%);*/
+}
+
+.right {
+	display: inline-block;
+	width: 44%;
+	position: relative;
+  	top: 50%;
+/*  	transform: translateY(-100%);*/
+}
+
+/*END NAVIGATION*/
+
+/*THIS PART IS THE MAIN SLIDER IMAGE "HERO"*/
+
+.hero {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400;
+	background-image: url("../img/theFinalFrontierStd.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 5%;
+	margin: 2.5% 0;
+	color: #fae7d9;
+	line-height: .5;
+}
+
+h3 span {
+	font-family: 'Lobster';
+	color: yellow;
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 2em;
+	color: red;
+}
+
+.found {
+	font-family: 'Lobster', sans-serif;
+	color: yellow;
+	font-size: 2.5em;
+	line-height: .5;
+}
+
+.name {
+	font-family: 'Bangers', sans-serif;
+	text-transform: uppercase;
+	font-size: 7em;
+	line-height: .5;
+}
+
+.illustrationist {
+	font-family: 'Lobster', sans-serif;
+/*	font-size: 1.5em;*/
+	color: orange;
+}
+
+.designographer {
+	font-family: 'Bangers', sans-serif;
+/*	font-size: 1.5em;*/
+	color: yellow;
+}
+
+.developer {
+	font-family: 'Alegreya Sans', serif;
+/*	font-size: 1.5em;*/
+	color: lime;
+}
+
+/*END "HERO"*/
+
+
+/*ABOUT*/
+
+.about {
+	margin: 0 auto;
+}
+
+.selfie {
+	width: 20%;
+	margin: 5%;
+/*	background: rgba(255,255,255,.6);*/
+	float: left;
+	display: inline-block;
+}
+
+.selfie img {
+	width: 100%;
+	border: 20px solid rgba(255,255,255,.6);
+}
+
+.bio {
+	width: 55%;
+	margin: 5%;
+	padding: 2.5% 2.5%;
+	background: rgba(255,255,255,.6);
+	float: right;
+	display: inline-block;
+	box-shadow: 1% rgba(0,0,0,.6);
+	line-height: 1.5;
+}
+
+/*END ABOUT*/
+
+/*INSTA SKETCHES*/
+
+
+.sketches {
+	display: none;
+	width: 100%;
+	height: 325px;
+	background-color: rgba(0,0,0,.6);
+	display: block;
+	float: left;
+	color: white;
+}
+
+.sketches li {
+	list-style-type: none;
+}
+
+.simply-scroll-list {
+	overflow: hidden;
+	height: 200px;
+}
+
+
+
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: thin black solid;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 100%;
+	height: 200px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width: 100%;
+	height: 200px;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	margin: 5px;
+	padding: 5px;
+}
+
+/*END INSTA SKETCHES*/
+
+
+
+
