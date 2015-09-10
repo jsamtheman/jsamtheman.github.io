@@ -1,19 +1,24 @@
 $(document).ready(function(){
-	$('header').show("scale", 750);
-	$('#hero').delay(750).slideDown(1500);
+	$('header').slideDown(750);
+	$('#hero').delay(750).show("scale",1500);
 
-	$(window).bind("scroll", function() {
-	    if ($(this).scrollTop() > 520) {
-	        $("#about").fadeIn();
-	    } else {
-	        $("#about").stop().fadeOut();
-	    }
-	    if ($(this).scrollTop() > 800) {
-	    	$("#sketches").fadeIn();
-	    	} else {
-			$("#sketches").fadeOut();
-		}
-	});
+	// $(window).bind("scroll", function() {
+	//     if ($(this).scrollTop() > 520) {
+	//         $("#about").fadeIn();
+	//     } else {
+	//         $("#about").stop().fadeOut();
+	//     }
+	//     if ($(this).scrollTop() > 650) {
+	//         $("#work").fadeIn();
+	//     } else {
+	//         $("#work").stop().fadeOut();
+	//     }
+	//     if ($(this).scrollTop() > 800) {
+	//     	$("#sketches").fadeIn();
+	//     	} else {
+	// 		$("#sketches").fadeOut();
+	// 	}
+	// });
 
 
 	var userFeed = new Instafeed({
